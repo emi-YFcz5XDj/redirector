@@ -1,0 +1,11 @@
+*~
+*.swp
+*.swo
+*.orig
+
+redirector
+redirector.*
+*.o
+*.tar.gz
+*.7z
+
