@@ -17,19 +17,18 @@ The Redirector will read a file location stored in `redirector.conf` (relative t
 ## Build Requirements
 
 You'll need the following:
-- gcc
-- make
-- Mingw64
-- Mingw64 pthread static libraries
+* gcc
+* make
+* Mingw64
 
-### Fedora 42
+### Fedora 43
 ```
-sudo dnf install gcc make mingw64-gcc mingw64-winpthreads-static
+sudo dnf install gcc make mingw64-gcc
 ```
 
 ### Arch
 ```
-sudo pacman -S gcc make mingw-w64-gcc mingw-w64-winpthreads
+sudo pacman -S gcc make mingw-w64-gcc
 ```
 
 Check MinGW's [downloads page](https://www.mingw-w64.org/downloads/) for a more complete list of available packages.
@@ -38,7 +37,7 @@ Check MinGW's [downloads page](https://www.mingw-w64.org/downloads/) for a more 
 
 A Makefile is provided to simplify the process.
 
-- Running `make` or `make windows` will compile Windows binaries
-- Running `make unix` will compile Unix binaries
-- Running `make all` will compile all binaries
+* Run `make` or `make windows` to compile Windows binaries
+* Run `make unix` to compile Unix binaries
+* Run `make all` to compile all binaries
 
